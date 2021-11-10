@@ -14,7 +14,7 @@ struct Person {
 
 extension Person {
     static func getContacts() -> [Person] {
-        let phones = getPhones()
+        let phones = getData(phonesSet)
         let names = getData(namesSet)
         let surNames = getData(surNamesSet)
         let emails = getData(emailsSet)
