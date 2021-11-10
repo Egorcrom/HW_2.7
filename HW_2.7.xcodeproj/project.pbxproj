@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		FACEB7C8273AE009009AFEC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB7C7273AE009009AFEC9 /* AppDelegate.swift */; };
 		FACEB7CA273AE009009AFEC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB7C9273AE009009AFEC9 /* SceneDelegate.swift */; };
-		FACEB7CC273AE009009AFEC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB7CB273AE009009AFEC9 /* ViewController.swift */; };
 		FACEB7CF273AE009009AFEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACEB7CD273AE009009AFEC9 /* Main.storyboard */; };
 		FACEB7D1273AE00B009AFEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACEB7D0273AE00B009AFEC9 /* Assets.xcassets */; };
 		FACEB7D4273AE00B009AFEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACEB7D2273AE00B009AFEC9 /* LaunchScreen.storyboard */; };
+		FACEB7DC273B56C3009AFEC9 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB7DB273B56C3009AFEC9 /* PersonsListViewController.swift */; };
+		FACEB7DE273B6966009AFEC9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB7DD273B6966009AFEC9 /* Person.swift */; };
+		FACEB7E0273B70FF009AFEC9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB7DF273B70FF009AFEC9 /* DataManager.swift */; };
+		FACEB7E2273B762D009AFEC9 /* DetailedPersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB7E1273B762D009AFEC9 /* DetailedPersonsListViewController.swift */; };
+		FACEB7E4273BEDFF009AFEC9 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB7E3273BEDFF009AFEC9 /* PersonDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FACEB7C4273AE009009AFEC9 /* HW_2.7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_2.7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACEB7C7273AE009009AFEC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACEB7C9273AE009009AFEC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FACEB7CB273AE009009AFEC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FACEB7CE273AE009009AFEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FACEB7D0273AE00B009AFEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACEB7D3273AE00B009AFEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FACEB7D5273AE00B009AFEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACEB7DB273B56C3009AFEC9 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
+		FACEB7DD273B6966009AFEC9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FACEB7DF273B70FF009AFEC9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FACEB7E1273B762D009AFEC9 /* DetailedPersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPersonsListViewController.swift; sourceTree = "<group>"; };
+		FACEB7E3273BEDFF009AFEC9 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA896816273C4C42005C0E38 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FACEB7E3273BEDFF009AFEC9 /* PersonDetailsViewController.swift */,
+				FACEB7E1273B762D009AFEC9 /* DetailedPersonsListViewController.swift */,
+				FACEB7DB273B56C3009AFEC9 /* PersonsListViewController.swift */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		FA896817273C4C4F005C0E38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FACEB7DD273B6966009AFEC9 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA896818273C4C64005C0E38 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FACEB7CD273AE009009AFEC9 /* Main.storyboard */,
+				FACEB7D2273AE00B009AFEC9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FA896819273C4C75005C0E38 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FACEB7DF273B70FF009AFEC9 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FA89681A273C4C85005C0E38 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				FACEB7D5273AE00B009AFEC9 /* Info.plist */,
+				FACEB7C7273AE009009AFEC9 /* AppDelegate.swift */,
+				FACEB7C9273AE009009AFEC9 /* SceneDelegate.swift */,
+				FACEB7D0273AE00B009AFEC9 /* Assets.xcassets */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
 		FACEB7BB273AE009009AFEC9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +110,11 @@
 		FACEB7C6273AE009009AFEC9 /* HW_2.7 */ = {
 			isa = PBXGroup;
 			children = (
-				FACEB7C7273AE009009AFEC9 /* AppDelegate.swift */,
-				FACEB7C9273AE009009AFEC9 /* SceneDelegate.swift */,
-				FACEB7CB273AE009009AFEC9 /* ViewController.swift */,
-				FACEB7CD273AE009009AFEC9 /* Main.storyboard */,
-				FACEB7D0273AE00B009AFEC9 /* Assets.xcassets */,
-				FACEB7D2273AE00B009AFEC9 /* LaunchScreen.storyboard */,
-				FACEB7D5273AE00B009AFEC9 /* Info.plist */,
+				FA89681A273C4C85005C0E38 /* Configs */,
+				FA896818273C4C64005C0E38 /* Storyboards */,
+				FA896816273C4C42005C0E38 /* VIewControllers */,
+				FA896817273C4C4F005C0E38 /* Models */,
+				FA896819273C4C75005C0E38 /* Services */,
 			);
 			path = HW_2.7;
 			sourceTree = "<group>";
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACEB7CC273AE009009AFEC9 /* ViewController.swift in Sources */,
+				FACEB7DE273B6966009AFEC9 /* Person.swift in Sources */,
+				FACEB7E0273B70FF009AFEC9 /* DataManager.swift in Sources */,
 				FACEB7C8273AE009009AFEC9 /* AppDelegate.swift in Sources */,
+				FACEB7E2273B762D009AFEC9 /* DetailedPersonsListViewController.swift in Sources */,
+				FACEB7DC273B56C3009AFEC9 /* PersonsListViewController.swift in Sources */,
 				FACEB7CA273AE009009AFEC9 /* SceneDelegate.swift in Sources */,
+				FACEB7E4273BEDFF009AFEC9 /* PersonDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +347,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75J85Z3TN2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HW_2.7/Info.plist;
+				INFOPLIST_FILE = HW_2.7/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +362,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +375,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75J85Z3TN2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HW_2.7/Info.plist;
+				INFOPLIST_FILE = HW_2.7/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +390,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
