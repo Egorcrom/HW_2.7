@@ -2,7 +2,7 @@
 //  DataManager.swift
 //  HW_2.7
 //
-//  Created by Егор Кромин on 10.11.2021.
+//  Created by Егор Кромин on 10.11.2021. 
 //
 
 import Foundation

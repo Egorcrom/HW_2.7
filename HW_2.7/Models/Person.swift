@@ -30,7 +30,6 @@ extension Person {
         }
         return contacts
     }
-    
     static func getData(_ Set:Set<String>) -> [String] {
         var temp: [String] = []
         for count in Set {
